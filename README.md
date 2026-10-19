@@ -31,7 +31,7 @@ Live storage is automatically created at `data/threads_trends.sqlite3`, relative
 to app.py, regardless of the terminal's current folder. Existing records are
 preserved. No initial locations or stock are invented. The window displays the
 mode and absolute storage path. Close the application before copying the database
-for backup or restoration. See MANUAL.md and the PDF manual for all workflows.
+for backup or restoration. See `docs/MANUAL.md` and the PDF manual for all workflows.
 
 ## Safe demonstration
 
@@ -85,8 +85,10 @@ Clothing purchases are expensed on their purchase date, per assignment; statemen
 do not substitute cost of goods sold. Reports do not write financial records.
 Fixed charges are explicit and uncharged locations are identified on statements.
 
-See ASSUMPTIONS.md for unresolved decisions and limitations, DEMO_OUTLINE.md for
-the 10-15 minute presentation, and MANUAL.md for the editable manual source.
+See `docs/ASSUMPTIONS.md` for unresolved decisions and limitations,
+`docs/DEMO_OUTLINE.md` for the 10-15 minute presentation, and `docs/MANUAL.md`
+for the editable manual source. Project reports, context exports, and the PDF
+manual are also kept together in `docs/`.
 The PDF can be rebuilt with `py -3 build_manual.py` after installing the optional
 documentation-only package: `py -3 -m pip install reportlab`. PDF reading/rendering
 tools used for development are not application dependencies.

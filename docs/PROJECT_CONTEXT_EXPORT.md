@@ -259,7 +259,7 @@ The project currently includes:
 - Product-sales reporting by inclusive date range and location.
 - A verification suite in `verify.py` using temporary databases.
 - Separate fictional demonstration storage and setup.
-- `README.md`, `MANUAL.md`, a generated PDF manual, assumptions, and a presentation outline.
+- `README.md`, `docs/MANUAL.md`, a generated PDF manual, assumptions, and a presentation outline.
 
 Current SQLite model:
 
@@ -282,7 +282,7 @@ The original recommendation remains appropriate: use a small standard-library Py
 - `reports.py` — read-only income-statement and product-sales calculations
 - `verify.py` — automated workflow and rule checks
 - `README.md` — setup and developer overview
-- `MANUAL.md` and PDF — end-user setup, use, storage, backup, and limitations
+- `docs/MANUAL.md` and PDF — end-user setup, use, storage, backup, and limitations
 - `data/` — live SQLite database
 - `demo_data/` — separate fictional demonstration database
 
@@ -631,7 +631,7 @@ This shorter prompt is more appropriate now that the project already contains a 
 ```text
 Continue the existing MGIS 350 Team 13 Threads & Trends project in this folder. Team members are Bret Kiefer, Sai Bhuyan, and Addas Ahmad.
 
-First read PROJECT_CONTEXT_EXPORT.md, README.md, ASSUMPTIONS.md, MANUAL.md, and the existing Python files. Do not replace the working architecture or erase any live/demo data. Treat confirmed requirements, provisional implementation choices, and unresolved customer questions as separate categories.
+First read docs/PROJECT_CONTEXT_EXPORT.md, README.md, docs/ASSUMPTIONS.md, docs/MANUAL.md, and the existing Python files. Do not replace the working architecture or erase any live/demo data. Treat confirmed requirements, provisional implementation choices, and unresolved customer questions as separate categories.
 
 Inspect the current implementation and verification results before changing code. Keep the project understandable for students, prefer the Python standard library, preserve SQLite data, and make only focused changes. Do not claim that generated work was personally completed by a specific teammate.
 
@@ -648,10 +648,11 @@ Then:
 - Referenced ChatGPT conversation: “Write Report 1”
 - Attached `Team_13_Needs_Assessment_Proposal(1).docx`
 - Attached `2x2 Template(2).docx`
-- `Team_13_Report_1_Simplified.docx`
-- `Team_13_Report_2.docx`
+- `docs/Team_13_Report_1_Simplified.docx`
+- `docs/Team_13_Report_2.docx`
+- `docs/Team_13_Report_3.docx`
 - Current `README.md`
-- Current `ASSUMPTIONS.md`
-- Current `MANUAL.md`
-- Current `DEMO_OUTLINE.md`
+- Current `docs/ASSUMPTIONS.md`
+- Current `docs/MANUAL.md`
+- Current `docs/DEMO_OUTLINE.md`
 - Current application modules and data model

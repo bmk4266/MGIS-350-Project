@@ -7,6 +7,7 @@ from reportlab.lib.enums import TA_LEFT
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
 
 ROOT = Path(__file__).resolve().parent
+DOCS = ROOT / 'docs'
 
 
 def footer(canvas, document):
@@ -17,7 +18,7 @@ def footer(canvas, document):
 
 
 def main():
-    output = ROOT / 'output' / 'pdf' / 'Threads_and_Trends_User_Manual.pdf'
+    output = DOCS / 'Threads_and_Trends_User_Manual.pdf'
     output.parent.mkdir(parents=True, exist_ok=True)
     styles = getSampleStyleSheet()
     styles['Title'].textColor = colors.HexColor('#17464b')
@@ -27,7 +28,7 @@ def main():
     styles['BodyText'].leading = 15
     story = []
     paragraph = []
-    for line in (ROOT / 'MANUAL.md').read_text(encoding='utf-8').splitlines() + ['']:
+    for line in (DOCS / 'MANUAL.md').read_text(encoding='utf-8').splitlines() + ['']:
         if not line or line.startswith('#'):
             if paragraph:
                 story.append(Paragraph(escape(' '.join(paragraph)), styles['BodyText']))

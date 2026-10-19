@@ -112,7 +112,7 @@ demo_data/threads_trends.sqlite3. The title and path say DEMO. Existing demo
 records are preserved, and live storage is untouched. Choose October 2026 and
 Central: buying 10 T-Shirts costs $80, selling 3 yields $54, stock is 7, and net
 income after one fixed month is -$22,376. Trying to sell 8 more must fail. Close
-and reopen to check persistence. See DEMO_OUTLINE.md for the presentation plan.
+and reopen to check persistence. See `docs/DEMO_OUTLINE.md` for the presentation plan.
 
 ## 10. Defaults, limitations, and editable source
 
@@ -124,7 +124,7 @@ backdated/future dates are accepted; inventory checks use current recorded stock
 not historical stock as of the entered date. There is no correction, returns,
 tax, discount, user-login, or automatic monthly charging workflow.
 
-MANUAL.md is the editable source. To rebuild the PDF, install the optional
+`docs/MANUAL.md` is the editable source. To rebuild the PDF, install the optional
 documentation package with py -3 -m pip install reportlab and run
 py -3 build_manual.py. This package is not needed to run or verify the application.
-See README.md for the module map and ASSUMPTIONS.md for all pending decisions.
+See `README.md` for the module map and `docs/ASSUMPTIONS.md` for all pending decisions.
