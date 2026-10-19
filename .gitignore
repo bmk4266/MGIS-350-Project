@@ -1,0 +1,6 @@
+__pycache__/
+data/
+demo_data/
+tmp/
+work/
+*.sqlite3

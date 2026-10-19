@@ -1,0 +1,44 @@
+MGIS 350 TEAM 13 — THREADS & TRENDS PROJECT CONTEXT
+
+The complete, clean project-context export is available in PROJECT_CONTEXT_EXPORT.md.
+
+This plain-text companion is intentionally concise for systems that do not render Markdown.
+
+TEAM
+Bret Kiefer, Sai Bhuyan, Addas Ahmad
+
+PROJECT
+Build a local Python application for fictional retailer Threads & Trends. It must preserve data after closing, support multiple locations, track clothing and supplies, record purchases and daily item-level sales totals, prevent overselling, account for fixed monthly expenses, and display location/company income statements plus product-sales quantities by location.
+
+DELIVERABLES
+Complete Python application, persistent local data storage, regular 2x2 reports, PDF setup/user manual, and final demonstration.
+
+PRICES
+T-Shirt: $8 cost / $18 sale
+Jeans: $22 cost / $48 sale
+Hoodie: $18 cost / $40 sale
+Jacket: $35 cost / $75 sale
+Dress: $28 cost / $60 sale
+Shopping bags: $25 per 500
+Gift boxes: $40 per 100
+Receipt paper: $18 per case
+
+FIXED MONTHLY EXPENSES PER LOCATION
+Rent $1,500; utilities $350; labor $18,000; equipment leases $2,500; total $22,350.
+
+UNRESOLVED
+Initial locations and balances; supply-usage rules; receipt-paper units; automatic versus explicit fixed expenses and any prorating; preferred product-report dates; and whether backdated entries require historical stock validation.
+
+CURRENT PROVISIONAL CHOICES
+Empty live setup; explicit opening stock; manual supply usage; paper tracked by case; explicit once-per-location/month fixed charges; inclusive report date range; current-stock validation; purchases expensed on purchase date.
+
+REPORT 1 HISTORICAL STATUS
+Requirements reviewed, customer questions prepared, and roles/workflow discussed. Customer meeting, proposal, and technical planning were then upcoming.
+
+REPORT 2 HISTORICAL STATUS
+Needs assessment, proposal/scope, and review of reporting/inventory/storage needs were completed. Bret was assigned entry functions, Sai storage, and Addas reports. Remaining customer decisions were recorded.
+
+CURRENT PROJECT
+The folder now contains a Tkinter app, optional local browser interface, SQLite storage, all main entry workflows, reports, validation, verification checks, separate demo storage, user documentation, a PDF manual, assumptions, and a demonstration outline.
+
+See PROJECT_CONTEXT_EXPORT.md for the full confirmed requirements, decision labels, report details, architecture, implementation plan, original Codex starter prompt, and updated continuation prompt.
